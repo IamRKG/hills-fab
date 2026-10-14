@@ -18,9 +18,9 @@ const env = (key: string, fallback: string) => {
 
 export const siteConfig = {
   /** Legal / trading name, e.g. "Sri Murugan Fabrication & Windows" */
-  name: env("NEXT_PUBLIC_COMPANY_NAME", "[Company Name]"),
+  name: env("NEXT_PUBLIC_COMPANY_NAME", "Hills Fabrication Works"),
   /** Short name used in the logo lock-up and browser tab */
-  shortName: env("NEXT_PUBLIC_COMPANY_SHORT_NAME", "[Company]"),
+  shortName: env("NEXT_PUBLIC_COMPANY_SHORT_NAME", "Hills Fab"),
   tagline: "Fabrication · Welding · uPVC Windows & Doors",
   description:
     "Custom metal fabrication, expert welding, MS and stainless steel gates, railings, and uPVC windows and doors for residential, commercial and industrial projects.",
@@ -30,23 +30,23 @@ export const siteConfig = {
 
   contact: {
     /** Display format, e.g. "+91 98765 43210" */
-    phone: env("NEXT_PUBLIC_PHONE", "[Phone Number]"),
+    phone: env("NEXT_PUBLIC_PHONE", "+91 99529 10022"),
     /** WhatsApp number in international format, digits only, e.g. "919876543210" */
-    whatsapp: env("NEXT_PUBLIC_WHATSAPP_NUMBER", ""),
+    whatsapp: env("NEXT_PUBLIC_WHATSAPP_NUMBER", "919952910022"),
     email: env("NEXT_PUBLIC_EMAIL", "[Email Address]"),
   },
 
   address: {
-    street: env("NEXT_PUBLIC_ADDRESS_STREET", "[Street Address]"),
-    locality: env("NEXT_PUBLIC_ADDRESS_CITY", "[City]"),
-    region: env("NEXT_PUBLIC_ADDRESS_REGION", "[State / Region]"),
-    postalCode: env("NEXT_PUBLIC_ADDRESS_POSTCODE", "[Postcode]"),
+    street: env("NEXT_PUBLIC_ADDRESS_STREET", "Ottiyambakam Main Road, Ottiyambakkam"),
+    locality: env("NEXT_PUBLIC_ADDRESS_CITY", "Chennai"),
+    region: env("NEXT_PUBLIC_ADDRESS_REGION", "Tamil Nadu"),
+    postalCode: env("NEXT_PUBLIC_ADDRESS_POSTCODE", "600130"),
     /** ISO 3166-1 alpha-2, e.g. "IN" */
-    country: env("NEXT_PUBLIC_ADDRESS_COUNTRY", "[Country]"),
+    country: env("NEXT_PUBLIC_ADDRESS_COUNTRY", "IN"),
   },
 
   /** Optional: an exact Google Maps embed URL (Share → Embed a map → copy the src). */
-  mapEmbedUrl: env("NEXT_PUBLIC_MAP_EMBED_URL", ""),
+  mapEmbedUrl: env("NEXT_PUBLIC_MAP_EMBED_URL", "https://maps.google.com/maps?q=Ottiyambakam+Main+Road,+Ottiyambakkam,+Chennai,+Tamil+Nadu+600130&output=embed"),
 
   /** Working hours shown on the Contact page and footer. */
   hours: [
@@ -55,7 +55,7 @@ export const siteConfig = {
   ],
 
   /** Primary city or region, used in SEO titles ("… in [City]"). */
-  primaryLocation: env("NEXT_PUBLIC_PRIMARY_LOCATION", "[Your City]"),
+  primaryLocation: env("NEXT_PUBLIC_PRIMARY_LOCATION", "Chennai"),
 
   /** Areas you serve. Shown in the Service Area section. */
   serviceAreas: [
