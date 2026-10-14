@@ -46,7 +46,7 @@ export const siteConfig = {
   },
 
   /** Optional: an exact Google Maps embed URL (Share → Embed a map → copy the src). */
-  mapEmbedUrl: env("NEXT_PUBLIC_MAP_EMBED_URL", "https://maps.google.com/maps?q=Ottiyambakam+Main+Road,+Ottiyambakkam,+Chennai,+Tamil+Nadu+600130&output=embed"),
+  mapEmbedUrl: env("NEXT_PUBLIC_MAP_EMBED_URL", "https://www.google.com/maps/embed?pb=!4v1791989081731!6m8!1m7!1sgMK9z7y6gn1beeKkU65PkQ!2m2!1d12.86513134913474!2d80.19128180989878!3f263.4774092451874!4f10.173445245523013!5f0.7820865974627469"),
 
   /** Working hours shown on the Contact page and footer. */
   hours: [
